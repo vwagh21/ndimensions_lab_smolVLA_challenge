@@ -16,7 +16,7 @@ pip install hf-egl-probe --no-build-isolation
 
 The `--no-deps` / `--no-build-isolation` flags avoid a C extension build failure in `egl_probe`. See `requirements.txt` header for details.
 
-## Part 1 — Dataset analysis
+## Part 1 : Dataset analysis
 
 ```bash
 python scripts/analyze_dataset.py
@@ -24,7 +24,7 @@ python scripts/analyze_dataset.py
 
 Loads `lerobot/libero_spatial_image` Task 0, writes observation/action space info to `results/dataset_analysis.md`, saves the train/val split to `episode_split.json` (38 train, 5 val).
 
-## Part 2 — Fine-tuning
+## Part 2 : Fine-tuning
 
 ```bash
 python scripts/train.py
@@ -34,7 +34,7 @@ Fine-tunes `HuggingFaceVLA/smolvla_libero` with LoRA (rank 8) for 10k steps. Che
 
 Config (batch size, steps, LoRA rank, etc.) is set at the top of `scripts/train.py`.
 
-## Part 3 — Diagnostics
+## Part 3 : Diagnostics
 
 ```bash
 python scripts/plot_diagnostics.py [run_id]
@@ -48,7 +48,7 @@ To backfill validation loss for an existing run:
 python scripts/validation_loss.py outputs/train/<run_id>
 ```
 
-## Part 4 — Evaluation
+## Part 4 : Evaluation
 
 ```bash
 python scripts/eval_policy.py [checkpoint_path]
@@ -56,13 +56,13 @@ python scripts/eval_policy.py [checkpoint_path]
 
 Runs the fine-tuned policy in LIBERO simulation across three conditions:
 
-- **ID** — `libero_spatial` Task 0 (same as training)
-- **OOD1** — `libero_spatial` Task 1
-- **OOD2** — `libero_spatial` Task 2
+- **ID** : `libero_spatial` Task 0 (same as training)
+- **OOD1** : `libero_spatial` Task 1
+- **OOD2** : `libero_spatial` Task 2
 
 Omit `checkpoint_path` to auto-detect the latest checkpoint. Results and a summary go to `results/evaluation_summary/`.
 
-For headless/SSH environments, install `xvfb` (`sudo apt install xvfb`) — the script wraps itself automatically.
+For headless/SSH environments, install `xvfb` (`sudo apt install xvfb`) : the script wraps itself automatically.
 
 ## Project structure
 

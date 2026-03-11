@@ -1,0 +1,98 @@
+{
+  "per_task": [
+    {
+      "task_group": "libero_spatial",
+      "task_id": 2,
+      "metrics": {
+        "sum_rewards": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "max_rewards": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false
+        ],
+        "video_paths": [
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_0.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_1.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_2.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_3.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_4.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_5.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_6.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_7.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_8.mp4",
+          "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_9.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "libero_spatial": {
+      "avg_sum_reward": 0.2,
+      "avg_max_reward": 0.2,
+      "pc_success": 20.0,
+      "n_episodes": 10,
+      "video_paths": [
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_0.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_1.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_2.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_3.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_4.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_5.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_6.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_7.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_8.mp4",
+        "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_9.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 0.2,
+    "avg_max_reward": 0.2,
+    "pc_success": 20.0,
+    "n_episodes": 10,
+    "eval_s": 595.6164536476135,
+    "eval_ep_s": 59.56164538860321,
+    "video_paths": [
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_0.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_1.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_2.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_3.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_4.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_5.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_6.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_7.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_8.mp4",
+      "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_ood2/videos/libero_spatial_2/eval_episode_9.mp4"
+    ]
+  }
+}
