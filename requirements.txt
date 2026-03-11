@@ -1,0 +1,101 @@
+# ndimensions – single requirements file for training + eval
+# Tested with Python 3.12 inside conda env vw_ndim.
+#
+# Setup:
+#   conda create -n vw_ndim python=3.12 pip -y
+#   conda activate vw_ndim
+#   pip install -r requirements.txt
+#
+# Notes:
+#   - hf-egl-probe needs --no-build-isolation if cmake is pip-installed:
+#       pip install hf-egl-probe --no-build-isolation
+#   - robomimic/robosuite/hf-libero use --no-deps to skip the legacy
+#     egl_probe C extension that fails to build:
+#       pip install robomimic==0.2.0 robosuite==1.4.0 hf-libero==0.1.3 --no-deps
+#   - Do NOT use Python 3.14+; argparse changes break draccus.
+
+# ── Core: LeRobot + policy ──────────────────────────────────────────
+lerobot==0.5.0
+draccus==0.10.0
+transformers==5.3.0
+tokenizers==0.22.2
+huggingface-hub==1.6.0
+accelerate==1.13.0
+diffusers==0.35.2
+safetensors==0.7.0
+datasets==4.7.0
+
+# ── PEFT / LoRA ─────────────────────────────────────────────────────
+peft==0.18.1
+# bitsandbytes>=0.43.0        # uncomment for QLoRA (4-bit + LoRA)
+
+# ── SmolVLA processor ───────────────────────────────────────────────
+num2words==0.5.14
+
+# ── PyTorch + CUDA ──────────────────────────────────────────────────
+torch==2.10.0
+torchvision==0.25.0
+torchcodec==0.10.0
+triton==3.6.0
+
+# ── Numerics / science ──────────────────────────────────────────────
+numpy==2.2.6
+scipy==1.17.1
+numba==0.64.0
+llvmlite==0.46.0
+pandas>=2.3.3
+
+# ── LIBERO eval (simulation) ────────────────────────────────────────
+# Install these three with --no-deps (see notes above):
+#   pip install robomimic==0.2.0 robosuite==1.4.0 hf-libero==0.1.3 --no-deps
+mujoco==3.5.0
+dm-control==1.0.37
+dm-env==1.6
+dm-tree==0.1.9
+absl-py==2.4.0
+glfw==2.10.0
+pyopengl==3.1.10
+labmaze==1.0.6
+lxml==6.0.2
+h5py==3.16.0
+bddl==1.0.1
+hydra-core==1.3.2
+omegaconf==2.3.0
+antlr4-python3-runtime==4.9.3
+easydict==1.13
+future==1.0.0
+thop==0.1.1.post2209072238
+hf-egl-probe==1.0.2
+cffi==2.0.0
+etils[epath,epy]==1.14.0
+
+# ── Vision / media ──────────────────────────────────────────────────
+opencv-python==4.13.0.92
+opencv-python-headless==4.12.0.88
+pillow>=12.1.0
+imageio[ffmpeg]>=2.37.0
+av==15.1.0
+matplotlib>=3.10.0
+
+# ── Logging / tracking ──────────────────────────────────────────────
+wandb==0.24.2
+tensorboard==2.20.0
+tensorboardx==2.6.4
+rerun-sdk==0.26.2
+
+# ── Misc runtime ────────────────────────────────────────────────────
+einops==0.8.2
+gymnasium==1.2.3
+deepdiff==8.6.1
+jsonlines==4.0.0
+pyyaml>=6.0
+pyyaml-include==1.4.1
+mergedeep==1.3.4
+toml==0.10.2
+typing-inspect==0.9.0
+termcolor>=3.3.0
+psutil>=7.2.0
+protobuf>=6.31.0
+pyserial>=3.5
+pynput==1.8.1
+cmake>=4.1.0

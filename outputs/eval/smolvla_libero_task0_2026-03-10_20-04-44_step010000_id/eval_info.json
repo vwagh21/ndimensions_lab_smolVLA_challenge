@@ -1,0 +1,98 @@
+{
+  "per_task": [
+    {
+      "task_group": "libero_spatial",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_rewards": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "video_paths": [
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_0.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_1.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_2.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_3.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_4.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_5.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_6.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_7.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_8.mp4",
+          "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_9.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "libero_spatial": {
+      "avg_sum_reward": 0.0,
+      "avg_max_reward": 0.0,
+      "pc_success": 0.0,
+      "n_episodes": 10,
+      "video_paths": [
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_0.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_1.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_2.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_3.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_4.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_5.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_6.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_7.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_8.mp4",
+        "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_9.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 0.0,
+    "avg_max_reward": 0.0,
+    "pc_success": 0.0,
+    "n_episodes": 10,
+    "eval_s": 664.1291568279266,
+    "eval_ep_s": 66.41291570663452,
+    "video_paths": [
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_0.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_1.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_2.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_3.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_4.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_5.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_6.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_7.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_8.mp4",
+      "/home/metamobility5/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_9.mp4"
+    ]
+  }
+}

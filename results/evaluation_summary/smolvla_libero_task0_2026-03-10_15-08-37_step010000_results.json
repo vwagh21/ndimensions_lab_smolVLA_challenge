@@ -1,0 +1,29 @@
+{
+  "id": {
+    "label": "In-distribution (Task 0)",
+    "task_ids": [
+      0
+    ],
+    "output_dir": "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_15-08-37_step010000_id",
+    "exit_code": 0,
+    "pc_success": 40.0
+  },
+  "ood1": {
+    "label": "OOD: libero_spatial Task 1",
+    "task_ids": [
+      1
+    ],
+    "output_dir": "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_15-08-37_step010000_ood1",
+    "exit_code": 0,
+    "pc_success": 80.0
+  },
+  "ood2": {
+    "label": "OOD: libero_spatial Task 2",
+    "task_ids": [
+      2
+    ],
+    "output_dir": "/home/metamobility2/Vaidehi/ndimensions/outputs/eval/smolvla_libero_task0_2026-03-10_15-08-37_step010000_ood2",
+    "exit_code": 0,
+    "pc_success": 10.0
+  }
+}
