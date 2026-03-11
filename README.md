@@ -1,6 +1,6 @@
 # ndimensions lab: take home
 
-Fine-tune SmolVLA on LIBERO Spatial Task 0 with LoRA, then evaluate in-distribution and out-of-distribution.
+Fine-tune SmolVLA on LIBERO Spatial Task 0 with LoRA.
 **Checkpoint:** [vwagh21/ndim_smolVLA](https://huggingface.co/vwagh21/ndim_smolVLA)
 
 Summary of evaluation results, training plots, and videos demonstrating successful executions and failure cases in the results folder.
