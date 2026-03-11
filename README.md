@@ -7,16 +7,9 @@ Summary of evaluation results, training plots, and videos demonstrating successf
 
 ### Demo videos
 
-<table>
-  <tr>
-    <td><b>Run 19-23-30, episode 4</b></td>
-    <td><b>Run 20-04-44, episode 0</b></td>
-  </tr>
-  <tr>
-    <td><video src="outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_id/videos/libero_spatial_0/eval_episode_4.mp4" controls width="320"></video></td>
-    <td><video src="outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_0.mp4" controls width="320"></video></td>
-  </tr>
-</table>
+<video controls src="outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_4.mp4" title="Title"></video>
+
+<video controls src="outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_0.mp4" title="Title"></video>
 
 ## Setup
 
