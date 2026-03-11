@@ -7,9 +7,12 @@ Summary of evaluation results, training plots, and videos demonstrating successf
 
 ### Demo videos
 
-<video controls src="outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_4.mp4" title="Title"></video>
+GIFs below play inline on GitHub. Full MP4s are in the repo (links under each clip).
 
-<video controls src="outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_0.mp4" title="Title"></video>
+| Run 19-23-30, episode 4 | Run 20-04-44, episode 0 |
+|-------------------------|-------------------------|
+| ![Run 19-23-30 ep4](assets/demo_run1_ep4.gif) | ![Run 20-04-44 ep0](assets/demo_run2_ep0.gif) |
+| [MP4](outputs/eval/smolvla_libero_task0_2026-03-10_19-23-30_step010000_id/videos/libero_spatial_0/eval_episode_4.mp4) | [MP4](outputs/eval/smolvla_libero_task0_2026-03-10_20-04-44_step010000_id/videos/libero_spatial_0/eval_episode_0.mp4) |
 
 ## Setup
 
